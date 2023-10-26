@@ -95,3 +95,30 @@
 .btn-enviar:hover {
     background-color: #0056b3;
 }
+
+#tabela-precos {
+    max-width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+#tabela-precos th,
+#tabela-precos td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+#tabela-precos th {
+    background-color: #06c300;
+    color: white;
+    font-weight: bold;
+}
+
+#tabela-precos tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#tabela-precos tr:nth-child(odd) {
+    background-color: #fff;
+}
